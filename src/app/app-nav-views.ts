@@ -23,5 +23,10 @@ export const views: Object[] = [
     name: 'Targeting',
     icon: 'filter_center_focus',
     link: ['targeting']
+  },
+  {
+    name: 'Test Component',
+    icon: 'photo',
+    link: ['test']
   }
 ];
