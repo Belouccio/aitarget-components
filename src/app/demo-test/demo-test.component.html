@@ -1,0 +1,12 @@
+<div class="fba-demo-test">
+  <div class="demo-test-image">
+    <img id="image1" (click)="reloadPic($event)" [src] = "data"
+    *ngIf="condition"/>
+    <img id="image2" (click)="reloadPic($event)" src = "http://lorempixel.com/500/400"
+    *ngIf="!condition"/>
+  </div>
+
+  <div class="demo-test-text">
+    <p> {{ text }} </p>
+  </div>
+</div>
